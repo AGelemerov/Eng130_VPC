@@ -1,6 +1,8 @@
 # Virtual Private Cloud
 
 ## What is a VPC
+![vpc-diagram](images/vpc-diagram.png)
+
 A VPC is a virtual network that closely resembles a traditional network that you'd operate in your own data center. After you create a VPC, you can add subnets.
 An isolated secure environment which limits access. Least privilaged access
 
@@ -23,6 +25,7 @@ CIDR is principally a bitwise, prefix-based standard for the representation of I
 A network access control list (NACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules similar to your security groups in order to add an additional layer of security to your VPC.
 ![](images/sg_vs_nacls.png)
 
+<!-- VIDEO OF THIS -->
 ## Steps to connect and create VPC to app on cloud
 ![](images/steps.png)
 
@@ -85,3 +88,5 @@ A network access control list (NACL) is an optional layer of security for your V
 10. You are all set
     1.  All that is left is to seed the database from the app instance (e.g. `node seeds/seed.js`)
     2.  Run `npm start`
+
+<!-- VIDEO OF THIS -->
